@@ -1,0 +1,38 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(20, 20, 20);  
+  height: 50px;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Header nav {
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+}
+
+.Link {
+  text-decoration: none;
+  background-color: rgb(53, 53, 53);
+  border-radius: 10px;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+}
+
+.Link:hover {
+  background-color: rgb(175, 175, 175);
+  color: black;
+}
+.image {
+  width: 40px;
+  filter: invert();
+  
+}
+
+.imageLink {
+  margin-left: 1%;
+}
