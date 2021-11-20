@@ -6,8 +6,6 @@ import {
 
  
 import Home from './Pages/Home';
-
-
 import Cience from './Pages/Cience';
 import Health from './Pages/Health';
 import Politics from './Pages/Politics';

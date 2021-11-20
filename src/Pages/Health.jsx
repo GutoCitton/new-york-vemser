@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "../components/Header/Header";
 import PrintNews from "../components/PrintNews/PrintNews";
 import api from "../api";
+import styles from './Titulo.module.css'
 
 
 const Health = () => {
@@ -19,8 +20,8 @@ const Health = () => {
 
   return (
     <div>
-      <Header />
-      <h1>Health</h1>      
+      <Header /> 
+      <h1 className={styles.titulo}>Saúde</h1>    
       <ul>
         <PrintNews news={news}/> 
       </ul> 

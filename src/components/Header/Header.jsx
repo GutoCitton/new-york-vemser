@@ -7,10 +7,10 @@ const Header = () => {
       <Link to="/home" className= {styles.imageLink}> <img src={img} alt="Logo" className= {styles.image} /> </Link>
       <nav>
         <Link className={styles.Link} to="/home">Home</Link>
-        <Link className={styles.Link} to="/cience">Cience</Link>
-        <Link className={styles.Link} to="/health">Health</Link>
-        <Link className={styles.Link} to="/politics">Politics</Link>
-        <Link className={styles.Link} to="/world">World</Link>
+        <Link className={styles.Link} to="/cience">Ciência</Link>
+        <Link className={styles.Link} to="/health">Saúde</Link>
+        <Link className={styles.Link} to="/politics">Política</Link>
+        <Link className={styles.Link} to="/world">Mundo</Link>
       </nav>
     </header>
   )
