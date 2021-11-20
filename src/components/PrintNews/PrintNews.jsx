@@ -1,7 +1,11 @@
+import { useContext } from 'react'
+import { ContextProvider } from '../../context/ContextProvider'
 import styles from './PrintNews.module.css'
 import img from './unnamed.jpg'
 
-const PrintNews = ({ news }) => {
+const PrintNews = () => {
+
+  const { news } = useContext(ContextProvider);
 
   return (
     news.map((notice, index) => {

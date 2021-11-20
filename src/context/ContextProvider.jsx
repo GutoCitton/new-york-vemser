@@ -1,15 +1,15 @@
 import { createContext, useState } from "react";
 
-export const ContextProvider = createContext();
+export const ContextProvider = createContext({});
 
 function PagesProvider( {children} ) {
-  const [page, setPage] = useState('');
+  const [news, setNews] = useState([]);
   const apiKey = '6oAAdyBTjZeLo1huPSHFZGzFl5fe8CJA'
 
   return (
-    <ContextProvider value={{page, setPage, apiKey}}>
+    <ContextProvider.Provider value={{apiKey, news, setNews}}>
       {children}
-    </ContextProvider>
+    </ContextProvider.Provider>
   )
 }
 
