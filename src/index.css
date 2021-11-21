@@ -5,9 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(https://previews.123rf.com/images/pzaxe/pzaxe1301/pzaxe130100103/17543373-newspaper-background-vector-seamless-black-and-white-pattern.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
