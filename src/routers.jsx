@@ -19,7 +19,7 @@ import PagesProvider from './context/ContextProvider';
      <PagesProvider>
       <BrowserRouter>
         <Routes>
-          <Route index path='/home' element={<Home />} />
+          <Route index path='/' element={<Home />} />
           <Route path='/cience' element={<Cience />} />
           <Route path='/health' element={<Health />} />
           <Route path='/politics' element={<Politics />} />

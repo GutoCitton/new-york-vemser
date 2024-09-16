@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.Header}>
       <Link to="/home" className= {styles.imageLink}> <img src={img} alt="Logo" className= {styles.image} /> </Link>
       <nav>
-        <Link className={styles.Link} to="/home">Home</Link>
+        <Link className={styles.Link} to="/">Home</Link>
         <Link className={styles.Link} to="/cience">Ciência</Link>
         <Link className={styles.Link} to="/health">Saúde</Link>
         <Link className={styles.Link} to="/politics">Política</Link>
